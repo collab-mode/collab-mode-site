@@ -1,19 +1,28 @@
 @CHARSET "UTF-8";
 
-body{
-	background-color:#BCDEE3;
-	font-family:courier new;
+body {
+    background-color:#BCDEE3;
+    font-family:courier new;
 }
 
-#logo{
-	position: absolute; 
-	bottom: 0; 
-	left: 0; 
-	width: 100%; 
-	text-align: right;
+div.body {
+    padding-left:10%;
+    padding-right:10%;
 }
 
-#tpage{
+nav {
+    text-align:center
+}
+
+#logo {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    text-align: right;
+}
+
+#tpage {
     position: absolute;
     top: 250;
     left: 0;
