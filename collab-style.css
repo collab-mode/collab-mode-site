@@ -1,16 +1,29 @@
 @CHARSET "UTF-8";
 
-title, h1, h2, h3, h4 {
-    font-family:courier new;
+h1 {
+    font-family:"Courier New";
+}
+
+h2, h3, h4 {
+    font-family:Helvetica;
 }
 
 body {
-    background-color:#BCDEE3;
+    font-family:Helvetica;
+    background-color:SkyBlue
+}
+
+code {
+    border: 1px solid LightBlue;
+    border-radius: 3px;
+    font-size:14px;
+    font-family:Monaco,"DejaVu Sans Mono","Courier New",monospace;
+    background-color:LightBlue
 }
 
 div.body {
     padding-left:10%;
-    padding-right:10%;
+    padding-right:10%
 }
 
 nav {
@@ -22,7 +35,7 @@ nav {
     bottom: 0; 
     left: 0; 
     width: 100%; 
-    text-align: right;
+    text-align: right
 }
 
 #tpage {
