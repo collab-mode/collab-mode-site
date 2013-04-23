@@ -1,8 +1,11 @@
 @CHARSET "UTF-8";
 
+title, h1, h2, h3, h4 {
+    font-family:courier new;
+}
+
 body {
     background-color:#BCDEE3;
-    font-family:courier new;
 }
 
 div.body {
